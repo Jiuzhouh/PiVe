@@ -1,7 +1,7 @@
 # PiVe
 This is the official code for the paper: [PiVe: Prompting with Iterative Veriﬁcation Improving Graph-based Generative Capability of LLMs].
 
-## Folder Introduction
+## Files Introduction
 1. `data_processing_script` contains `data_process.ipynb` to create the training data for the verifier module and test data after each iteration.
 2. `GenWiki-HIQ` is the created dataset using verifier module, which contains 110K parallel graph-text pairs.
 3. `datasets` contains the used kelm-sub and webnlg+2020 datasets.
