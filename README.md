@@ -1,5 +1,5 @@
 # PiVe
-This is the official code for the paper: [PiVe: Prompting with Iterative Veriﬁcation Improving Graph-based Generative Capability of LLMs].
+This is the official code for the paper: [PiVe: Prompting with Iterative Veriﬁcation Improving Graph-based Generative Capability of LLMs](https://arxiv.org/pdf/2305.12392.pdf).
 
 ## Files Introduction
 1. `GenWiki-HIQ` is the created dataset using verifier module, which contains 110K parallel graph-text pairs.
