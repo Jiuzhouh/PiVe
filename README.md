@@ -9,3 +9,15 @@ This is the official code for the paper: [PiVe: Prompting with Iterative Veriﬁ
 5. `prompt_scripts`contains the sctipts to prompt LLMs.
 6. `single_verifier` contains the training sctipt for single verifier using T5-Large.
 7. `unified_verifier` contains the training sctipt for unified verifier using insturction-tuning on Flan-T5-XXL.
+
+## Citation
+```
+@misc{han2023pive,
+      title={PiVe: Prompting with Iterative Verification Improving Graph-based Generative Capability of LLMs}, 
+      author={Jiuzhou Han and Nigel Collier and Wray Buntine and Ehsan Shareghi},
+      year={2023},
+      eprint={2305.12392},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
