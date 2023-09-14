@@ -29,7 +29,7 @@ python ${ROOT_DIR}/finetune.py \
 --early_stopping_patience 5 \
 --gpus 1 \
 --output_dir=$OUTPUT_DIR \
---cache_dir="/home/jiuzhouh/wj84_scratch/jiuzhouh/.cache/" \
+--cache_dir=".cache/" \
 --max_source_length=512 \
 --max_target_length=128 \
 --val_max_target_length=128 \
