@@ -17,12 +17,22 @@ For the file "GPT3.5_result_KELM/test.target" in `run_chatgpt.py`, it is the sam
 
 ## Citation
 ```
-@misc{han2023pive,
-      title={PiVe: Prompting with Iterative Verification Improving Graph-based Generative Capability of LLMs}, 
-      author={Jiuzhou Han and Nigel Collier and Wray Buntine and Ehsan Shareghi},
-      year={2023},
-      eprint={2305.12392},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{han-etal-2024-pive,
+    title = "{P}i{V}e: Prompting with Iterative Verification Improving Graph-based Generative Capability of {LLM}s",
+    author = "Han, Jiuzhou  and
+      Collier, Nigel  and
+      Buntine, Wray  and
+      Shareghi, Ehsan",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand and virtual meeting",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.400",
+    pages = "6702--6718",
+    abstract = "Large language models (LLMs) have shown great abilities of solving various natural language tasks in different domains. Due to the training objective of LLMs and their pre-training data, LLMs are not very well equipped for tasks involving structured data generation. We propose a framework, Prompting with Iterative Verification (PiVe), to improve graph-based generative capability of LLMs. We show how a small language model could be trained to act as a verifier module for the output of an LLM(i.e., ChatGPT, GPT-4), and to iteratively improve its performance via fine-grained corrective instructions. We also show how the verifier module could apply iterative corrections offline for a more cost-effective solution to the text-to-graph generation task. Experiments on three graph-based datasets show consistent improvement gained via PiVe. Additionally, we create GenWiki-HIQ and highlight that the verifier module can be used as a data augmentation tool to help improve the quality of automatically generated parallel text-graph datasets.",
 }
 ```
